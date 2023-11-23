@@ -3,6 +3,7 @@
     margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -17,11 +18,16 @@ input,
 select,
 textarea {
     max-width: 280px;
+
 }
 
 
 body {
     margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #fff3e6;
 }
 
 
@@ -56,9 +62,6 @@ body {
 .navbar {
     display: flex;
     background-color: #00365e;
-    position: sticky;
-    z-index: 3;
-    top: 0;
 }
 
 .container-nav {
@@ -111,12 +114,7 @@ body {
 
 /*Fixed footer*/
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: whitesmoke;
-}
+
 
 footer {
     
